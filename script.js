@@ -76,7 +76,7 @@ map.on('click', e => {
 });
 
 
-fetch('miniProject_/data/clip_with_traffic.geojson')
+fetch('/data/clip_with_traffic.geojson')
   .then(r => r.json())
   .then(data => {
     allFeatures = data.features;
